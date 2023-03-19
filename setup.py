@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mglearn",
-    version="0.1.9.hotfix-koyachi-add-setup-py-for-colab",
+    version="0.1.9+hotfixKoyachiAddSetupPyForColab",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
                       'pillow', 'cycler', 'imageio', 'joblib'],
